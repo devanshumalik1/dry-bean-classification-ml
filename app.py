@@ -24,8 +24,8 @@ import seaborn as sns
 # ============================================================
 
 st.set_page_config(
-    page_title="Dry Bean Classification",
-    page_icon="🌱",
+    page_title="Dry Bean Classification By Devanshu",
+    page_icon="🌱𖠗",
     layout="wide"
 )
 
@@ -34,7 +34,7 @@ st.set_page_config(
 # TITLE
 # ============================================================
 
-st.title("🌱 Dry Bean Classification")
+st.title("🌱 Dry Bean Classification By Devanshu")
 st.markdown(
     """
     ### Machine Learning Classification Dashboard
