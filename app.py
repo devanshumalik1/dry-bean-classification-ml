@@ -76,6 +76,10 @@ def load_models():
 
         path = os.path.join(MODEL_DIR, filename)
 
+        if not os.path.exists(path):
+            st.error(f"Model file not found: {path}")
+            st.stop()
+
         loaded_models[model_name] = joblib.load(path)
 
     return loaded_models
