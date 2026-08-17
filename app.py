@@ -62,7 +62,7 @@ model_files = {
     "Logistic Regression": "logistic_regression.pkl",
     "Decision Tree": "decision_tree.pkl",
     "KNN": "knn.pkl",
-    "Naive Bayes": "naive_bayes.pkl",
+   # "Naive Bayes": "naive_bayes.pkl",
     "Random Forest": "random_forest.pkl"
 }
 
