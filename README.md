@@ -25,7 +25,7 @@ The trained models were then integrated into an interactive Streamlit web applic
 
 ### Dataset Source
 
-The Dry Bean Dataset is a publicly available classification dataset containing measurements of dry bean images.
+The Dry Bean Dataset is a publicly available classification dataset containing measurements of dry beans.
 
 ### Dataset Characteristics
 
