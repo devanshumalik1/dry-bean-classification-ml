@@ -21,9 +21,7 @@ The trained models were then integrated into an interactive Streamlit web applic
 
 ## 2. Dataset Description
 
-### Dataset Name
-
-**Dry Bean Dataset**
+### Dataset Name - **Dry Bean Dataset**
 
 ### Dataset Source
 
@@ -80,9 +78,7 @@ Feature scaling using `StandardScaler` was applied to the models where it was ap
 
 ## 3. GitHub Repository Link
 
-**GitHub Repository:**
-
-[PASTE YOUR GITHUB REPOSITORY LINK HERE]
+**GitHub Repository:** - https://github.com/devanshumalik1/dry-bean-classification-ml
 
 The repository contains:
 
@@ -134,11 +130,11 @@ The following evaluation metrics were calculated for every model:
 
 | ML Model                 |    Accuracy |         AUC |   Precision |      Recall |    F1 Score |         MCC |
 | ------------------------ | ----------: | ----------: | ----------: | ----------: | ----------: | ----------: |
-| Logistic Regression      | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** |
-| Decision Tree            | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** |
-| KNN                      | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** |
-| Naive Bayes              | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** |
-| Random Forest (Ensemble) | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** | **[VALUE]** |
+| Logistic Regression      | **0.9207**  | **0.9934**  | **0.9215**  | **0.9207**  | **0.9209**  | **0.9042**  |
+| Decision Tree            | **0.892**   | **0.9334**  | **0.8917**  | **0.892**   | **0.8916**  | **0.8696**  |
+| KNN                      | **0.9166**  | **0.9812**  | **0.9174**  | **0.9166**  | **0.9168**  | **0.8992**  |
+| Naive Bayes              | **0.7639**  | **0.9644**  | **0.7654**  | **0.7639**  | **0.7615**  | **0.7154**  |
+| Random Forest (Ensemble) | **0.9214**  | **0.9921**  | **0.9215**  | **0.9214**  | **0.9214**  | **0.9049**  |
 
 ---
 
@@ -151,11 +147,11 @@ The following evaluation metrics were calculated for every model:
 | **KNN**                      | KNN performs classification based on the similarity between observations. Feature scaling is important for this model because distance calculations are affected by feature magnitudes.                                  |
 | **Naive Bayes**              | Gaussian Naive Bayes provides a computationally efficient probabilistic approach. Its performance may be affected by the assumption that features are conditionally independent and approximately Gaussian.              |
 | **Random Forest (Ensemble)** | Random Forest combines predictions from multiple decision trees and generally provides robust performance by reducing the variance associated with a single decision tree.                                               |
-| **Overall Winner**           | **[INSERT WINNING MODEL]** achieved the best overall performance based on the comparison of the evaluation metrics.                                                                                                      |
+| **Overall Winner**           | **Random Forest** achieved the best overall performance based on the comparison of the evaluation metrics.                                                                                                      |
 
 ### Overall Performance
 
-Based on the calculated evaluation metrics, **[INSERT WINNING MODEL]** was identified as the overall winner for this dataset.
+Based on the calculated evaluation metrics, **Random Forest** was identified as the overall winner for this dataset.
 
 The model was selected based on its overall performance across Accuracy, AUC, Precision, Recall, F1 Score, and MCC rather than relying on a single evaluation metric.
 
@@ -206,9 +202,7 @@ The Streamlit application provides:
 
 ## 8. Live Streamlit Application
 
-**Live Application:**
-
-[PASTE YOUR STREAMLIT APP LINK HERE]
+**Live Application:** - https://dry-bean-classification-ml.streamlit.app/
 
 ---
 
